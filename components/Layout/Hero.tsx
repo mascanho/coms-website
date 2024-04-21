@@ -1,6 +1,7 @@
 import React from "react";
 import HeroCarrousel from "../HeroCarrouse";
 import { FcEngineering } from "react-icons/fc";
+import AvatarGroup from "../AvatarGroup";
 
 function Hero() {
   return (
@@ -15,17 +16,22 @@ function Hero() {
               Turn Key for B2B Services in the Planning, Construction and
               Maintenance of New Generation Networks
             </h2>
-            <div className="flex items-center justify-between rounded-lg bg-white px-4 py-2  shadow-lg shadow-black/25">
+            <div className="flex items-center justify-between rounded-lg bg-white px-4 py-3  shadow-lg shadow-black/25">
               <div className="flex flex-col">
-                <span className="text-gray-500">text here</span>
-                <span className="font-bold">text under</span>
+                <span className="text-gray-500">Trusted by the best</span>
+                <span className="font-bold">
+                  Our customers know who to trust
+                </span>
               </div>
               <button
                 className="h-8 rounded-full bg-orange-500 px-6  text-white"
                 type="button"
               >
-                button here
+                view customers
               </button>
+            </div>
+            <div>
+              <AvatarGroup />
             </div>
           </div>
           <div className="w-full flex sm:justify-end justify-center">
