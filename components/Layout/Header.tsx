@@ -1,0 +1,96 @@
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/wvnkrpDL8mt
+ * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ */
+import Link from "next/link";
+
+import HeaderMenu from "./HeaderMenu";
+
+export default function Header() {
+  return (
+    <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
+      <section className="mx-auto flex w-full max-w-5xl justify-between">
+        <div className="w-full">
+          <Link
+            className="hidden items-center gap-2 font-semibold md:flex"
+            href="#"
+          >
+            <ActivityIcon className="h-4 w-4 text-brand-primary " />
+            <span className="text-brand-primary">Crossed Lines</span>
+          </Link>
+          <Link
+            className="flex items-center gap-2 font-semibold md:hidden"
+            href="#"
+          >
+            <ActivityIcon className="h-4 w-4" />
+            <span className="text-black hover:text-brand-primary">
+              Acme Inc
+            </span>
+          </Link>
+        </div>
+        <nav className="hidden items-center gap-4 text-sm font-medium md:flex w-full sm:flex justify-end space-x-6">
+          <HeaderMenu title="Solutions" />
+
+          <Link
+            className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
+            href="#"
+          >
+            Our system
+          </Link>
+          <Link
+            className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
+            href="#"
+          >
+            About us
+          </Link>
+          <Link
+            className="text-white bg-brand-primary px-5 py-1 rounded-lg  dark:text-gray-400 dark:hover:text-gray-50"
+            href="#"
+          >
+            Contact
+          </Link>
+        </nav>
+      </section>
+    </header>
+  );
+}
+
+function ActivityIcon(props: any) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+    </svg>
+  );
+}
+
+function UserIcon(props: any) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </svg>
+  );
+}
