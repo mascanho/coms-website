@@ -43,7 +43,7 @@ function Stats() {
           </div>
           <div>
             <h2 className="text-white text-5xl font-bold">{count}%</h2>
-            <p className="text-sm mt-1 text-black/50 ml-1 font-semibold">
+            <p className="text-sm text-black/50 ml-1 font-semibold">
               Committed to you
             </p>
           </div>
@@ -54,7 +54,7 @@ function Stats() {
           </div>
           <div>
             <h2 className="text-white text-5xl font-bold">{years}+</h2>
-            <p className="text-sm mt-1 text-black/50 ml-1 font-semibold">
+            <p className="text-sm  text-black/50 ml-1 font-semibold">
               Years of experience
             </p>
           </div>
@@ -68,7 +68,7 @@ function Stats() {
               {countries}
               <span className="text-3xl"> offices</span>
             </h2>
-            <p className="text-sm mt-1 text-black/50 ml-1 font-semibold">
+            <p className="text-sm text-black/50 ml-1 font-semibold">
               Around the world
             </p>
           </div>
@@ -83,7 +83,7 @@ function Stats() {
               {customers}
               <span className="text-4xl">+</span>
             </h2>
-            <p className="text-sm mt-1 text-black/50 ml-1 font-semibold">
+            <p className="text-sm text-black/50 ml-1 font-semibold">
               Satisfied customers
             </p>
           </div>
