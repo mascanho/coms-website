@@ -8,8 +8,8 @@ import { BsTools } from "react-icons/bs";
 
 function SolutionsSection() {
   return (
-    <section className="bg-gray-200 text-black">
-      <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <section className="bg-gray-200 text-black rounded-br-[300px]">
+      <div className="mx-auto max-w-5xl px-4 py-8 pt-14 sm:px-6 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Our solutions</h2>
 
@@ -22,7 +22,7 @@ function SolutionsSection() {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <MdOutlineLocationSearching className="size-10 text-brand-primary" />
@@ -38,7 +38,7 @@ function SolutionsSection() {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <MdConstruction className="size-10 text-brand-primary" />
@@ -53,7 +53,7 @@ function SolutionsSection() {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <GrInstall className="size-10 text-brand-primary" />
@@ -67,7 +67,7 @@ function SolutionsSection() {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <GrLicense className="size-10 text-brand-primary" />
@@ -84,7 +84,7 @@ function SolutionsSection() {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <GrPlan className="size-10 text-brand-primary" />
@@ -99,7 +99,7 @@ function SolutionsSection() {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <BsTools className="size-10 text-brand-primary" />
@@ -113,7 +113,7 @@ function SolutionsSection() {
             </p>
           </a>
           <a
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
           >
             <MdModelTraining className="size-10 text-brand-primary" />

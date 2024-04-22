@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,7 +23,7 @@
     "embla-carousel-autoplay": "^7.1.0",
     "embla-carousel-react": "^7.1.0",
     "lucide-react": "^0.365.0",
-    "next": "14.1.4",
+    "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.1.0",
