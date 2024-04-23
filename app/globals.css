@@ -75,6 +75,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #ff8c01 transparent;
+}
+
 /* Mantine carrousel arrows */
 .m_39bc3463:where([data-orientation="horizontal"]) {
   inset-inline-start: 0;
@@ -84,3 +89,6 @@
   padding: 0 var(--carousel-controls-offset);
 }
 
+.logos-slide img {
+  width: 80px;
+}

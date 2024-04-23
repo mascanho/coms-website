@@ -1,58 +1,65 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/wvnkrpDL8mt
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+"use client";
 import Link from "next/link";
-
+import { useDisclosure } from "@mantine/hooks";
+import { Drawer, Button } from "@mantine/core";
 import HeaderMenu from "./HeaderMenu";
 
 export default function Header() {
+  const [opened, { open, close }] = useDisclosure(false);
   return (
-    <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
-      <section className="mx-auto flex w-full max-w-5xl justify-between">
-        <div className="w-full">
-          <Link
-            className="hidden items-center gap-2 font-semibold md:flex"
-            href="#"
-          >
-            <ActivityIcon className="h-4 w-4 text-brand-primary " />
-            <span className="text-brand-primary">Crossed Lines</span>
-          </Link>
-          <Link
-            className="flex items-center gap-2 font-semibold md:hidden"
-            href="#"
-          >
-            <ActivityIcon className="h-4 w-4" />
-            <span className="text-black hover:text-brand-primary">
-              Acme Inc
-            </span>
-          </Link>
-        </div>
-        <nav className="hidden items-center gap-4 text-sm font-medium md:flex w-full sm:flex justify-end space-x-6">
-          <HeaderMenu title="Solutions" />
+    <>
+      <Drawer opened={opened} onClose={close} withCloseButton={true} size="xs">
+        Drawer without header, press escape or click on overlay to close
+      </Drawer>
 
-          <Link
-            className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
-            href="#"
-          >
-            Our system
-          </Link>
-          <Link
-            className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
-            href="#"
-          >
-            About us
-          </Link>
-          <Link
-            className="text-white bg-brand-primary px-5 py-1 rounded-lg  dark:text-gray-400 dark:hover:text-gray-50"
-            href="#"
-          >
-            Contact
-          </Link>
-        </nav>
-      </section>
-    </header>
+      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
+        <section className="mx-auto flex w-full max-w-5xl justify-between">
+          <div className="w-full">
+            <Link
+              className="hidden items-center gap-2 font-semibold md:flex"
+              href="#"
+            >
+              <ActivityIcon className="h-4 w-4 text-brand-primary " />
+              <span className="text-brand-primary">Crossed Lines</span>
+            </Link>
+            <Link
+              className="flex items-center gap-2 font-semibold md:hidden"
+              href="#"
+            >
+              <ActivityIcon className="h-4 w-4" />
+              <span
+                className="text-black hover:text-brand-primary"
+                onClick={open}
+              >
+                Acme Inc
+              </span>
+            </Link>
+          </div>
+          <nav className="hidden items-center gap-4 text-sm font-medium md:flex w-full sm:flex justify-end space-x-6">
+            <HeaderMenu title="Solutions" />
+
+            <Link
+              className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
+              href="#"
+            >
+              Our system
+            </Link>
+            <Link
+              className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
+              href="#"
+            >
+              About us
+            </Link>
+            <Link
+              className="text-white bg-brand-primary px-5 py-1 rounded-lg  dark:text-gray-400 dark:hover:text-gray-50"
+              href="#"
+            >
+              Contact
+            </Link>
+          </nav>
+        </section>
+      </header>
+    </>
   );
 }
 
