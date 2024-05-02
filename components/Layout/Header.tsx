@@ -4,13 +4,22 @@ import { useDisclosure } from "@mantine/hooks";
 import { Drawer, Button } from "@mantine/core";
 import HeaderMenu from "./HeaderMenu";
 import { RxHamburgerMenu } from "react-icons/rx";
+import MobileDrawerContent from "../MobileDrawerContent";
 
 export default function Header() {
   const [opened, { open, close }] = useDisclosure(false);
   return (
     <>
-      <Drawer opened={opened} onClose={close} withCloseButton={true} size="xs">
-        Drawer without header, press escape or click on overlay to close
+      <Drawer
+        opened={opened}
+        onClose={close}
+        withCloseButton={true}
+        size="xs"
+        className="overflow-hidden h-screen"
+        overlayProps={{ backgroundOpacity: 0.5, blur: 4 }}
+        removeScrollProps={{ allowPinchZoom: true }}
+      >
+        <MobileDrawerContent />
       </Drawer>
 
       <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
