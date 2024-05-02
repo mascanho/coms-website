@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useDisclosure } from "@mantine/hooks";
 import { Drawer, Button } from "@mantine/core";
 import HeaderMenu from "./HeaderMenu";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Header() {
   const [opened, { open, close }] = useDisclosure(false);
@@ -26,7 +27,7 @@ export default function Header() {
               className="flex items-center gap-2 font-semibold md:hidden"
               href="#"
             >
-              <ActivityIcon className="h-4 w-4" />
+              <RxHamburgerMenu onClick={open} className="h-4 w-4" />
               <span
                 className="text-black hover:text-brand-primary"
                 onClick={open}

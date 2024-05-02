@@ -2,7 +2,7 @@ import React from "react";
 
 function Description() {
   return (
-    <section className="max-w-5xl mx-auto sm:mb-28 mb-10 w-11/12">
+    <section className="max-w-5xl mx-auto sm:mb-28 mb-10 w-11/12 -mt-16 sm:mt-0">
       <div className="mx-auto px-4 sm:px-0 py-8 sm:py-1 ">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">

@@ -8,19 +8,19 @@ import { BsTools } from "react-icons/bs";
 
 function SolutionsSection() {
   return (
-    <section className="bg-gray-200 text-black rounded-br-[300px]">
+    <section className="bg-gray-200 text-black rounded-br-[100px] pb-8 sm:rounded-br-[300px]">
       <div className="mx-auto max-w-5xl px-4 py-8 pt-14 sm:px-6 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Our solutions</h2>
 
-          <p className="mt-4 text-black">
+          <p className="my-4 text-black">
             Crossed Lines offers a set of diverse solutions in optical fiber,
             FTTx, FTTH-PMP, FTTH-P2P and HFC among others, for the design and
             construction of small, medium and large networks.
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
             href="#"
