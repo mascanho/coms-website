@@ -9,7 +9,7 @@ import { BsTools } from "react-icons/bs";
 function SolutionsSection() {
   return (
     <section className="bg-gray-200 text-black rounded-br-[100px] pb-8 sm:rounded-br-[300px]">
-      <div className="mx-auto max-w-5xl px-4 py-8 pt-14 sm:px-6 sm:py-24 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 py-8 pt-14 sm:px-6 sm:py-24 lg:px-8 w-11/12">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Our solutions</h2>
 
