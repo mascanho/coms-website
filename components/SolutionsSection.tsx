@@ -85,8 +85,8 @@ function SolutionsSection() {
           </a>
 
           <a
+            id="planning"
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
           >
             <GrPlan className="size-10 text-brand-primary" />
             <h2 className="mt-4 text-xl font-bold text-black">PLANNING</h2>

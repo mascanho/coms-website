@@ -2,6 +2,7 @@ import React from "react";
 import HeroCarrousel from "../HeroCarrouse";
 import { FcEngineering } from "react-icons/fc";
 import AvatarGroup from "../AvatarGroup";
+import { Link } from "lucide-react";
 
 function Hero() {
   return (
@@ -20,17 +21,22 @@ function Hero() {
             </h2>
             <div className="flex items-center justify-between rounded-lg bg-white px-4 py-3  shadow-lg shadow-black/25">
               <div className="flex flex-col">
-                <span className="text-gray-500">Trusted by the best</span>
+                <span className="text-gray-500 mb-1 text-sm">
+                  Trusted by the best
+                </span>
                 <span className="font-bold">
                   Our customers know who to trust
                 </span>
               </div>
-              <button
-                className="h-8 rounded-full bg-brand-primary  px-6 text-sm  text-white"
-                type="button"
-              >
-                view customers
-              </button>
+
+              <a href="#customers">
+                <button
+                  className="h-8 rounded-lg bg-brand-primary flex items-center text-nowrap  px-6 text-xs lg:text-sm  text-white"
+                  type="button"
+                >
+                  View customers
+                </button>
+              </a>
             </div>
             <div>{/* <AvatarGroup /> */}</div>
           </div>
