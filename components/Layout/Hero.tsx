@@ -8,7 +8,7 @@ function Hero() {
   return (
     <>
       <section className="block h-full items-center justify-center rounded-bl-[100px] bg-blue-100 pb-20 sm:flex sm:rounded-bl-[300px] sm:py-12 sm:pb-32">
-        <div className="mx-auto flex w-11/12 max-w-5xl flex-col-reverse justify-between space-y-12 sm:flex-row">
+        <div className="mx-auto flex max-w-5xl flex-col-reverse justify-between space-y-12 sm:flex-row w-10/12 sm:w-11/12">
           <div className="flex w-full flex-col  justify-center space-y-8  pt-5">
             <h1 className="text-4xl font-bold">
               Crossing Solutions Creating Connections
@@ -49,7 +49,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      <section className="mx-auto -mt-10 mb-20 flex h-full w-11/12 max-w-5xl justify-end overflow-hidden rounded-xl sm:-mt-12">
+      <section className="mx-auto -mt-10 mb-20 flex h-full w-10/12 sm:w-11/12 max-w-5xl justify-end overflow-hidden rounded-xl sm:-mt-12">
         <div className="flex w-72 items-center justify-center">
           <span className="-mt-4 text-6xl font-bold text-gray-400 underline">
             <a href="#solutions">
