@@ -21,7 +21,7 @@ export default function Header() {
         <MobileDrawerContent />
       </Drawer>
 
-      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
+      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6 fixed w-full z-10">
         <section className="mx-auto flex w-full max-w-5xl justify-between">
           <div className="w-full">
             <Link
