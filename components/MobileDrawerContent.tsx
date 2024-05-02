@@ -2,7 +2,7 @@ import React from "react";
 
 function MobileDrawerContent() {
   return (
-    <div className="flex h-full flex-1 flex-grow flex-col justify-between  bg-white">
+    <div className="flex flex-1 flex-grow flex-col justify-between  bg-white">
       <div className="px-4 py-6">
         <span className="grid h-10 w-32 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600">
           Logo

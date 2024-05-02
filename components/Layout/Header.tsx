@@ -15,7 +15,6 @@ export default function Header() {
         onClose={close}
         withCloseButton={true}
         size="xs"
-        className="overflow-hidden h-screen"
         overlayProps={{ backgroundOpacity: 0.5, blur: 4 }}
         removeScrollProps={{ allowPinchZoom: true }}
       >
