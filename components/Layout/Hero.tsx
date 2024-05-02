@@ -31,7 +31,7 @@ function Hero() {
 
               <a href="#customers">
                 <button
-                  className="h-8 rounded-lg bg-brand-primary flex items-center text-nowrap  px-6 text-xs lg:text-sm  text-white"
+                  className="h-8 rounded-lg bg-brand-primary flex items-center text-nowrap px-3  sm:px-6 text-xs lg:text-sm  text-white"
                   type="button"
                 >
                   View customers
