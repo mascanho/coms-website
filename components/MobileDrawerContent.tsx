@@ -26,7 +26,7 @@ function MobileDrawerContent() {
                 <span className="shrink-0 transition duration-300 group-open:-rotate-180">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -120,14 +120,14 @@ function MobileDrawerContent() {
           </li>
 
           <li>
-            <details class="group [&_summary::-webkit-details-marker]:hidden">
-              <summary class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
-                <span class="text-sm font-medium"> Account </span>
+            <details className="group [&_summary::-webkit-details-marker]:hidden">
+              <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                <span className="text-sm font-medium"> Account </span>
 
-                <span class="shrink-0 transition duration-300 group-open:-rotate-180">
+                <span className="shrink-0 transition duration-300 group-open:-rotate-180">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -140,11 +140,11 @@ function MobileDrawerContent() {
                 </span>
               </summary>
 
-              <ul class="mt-2 space-y-1 px-4">
+              <ul className="mt-2 space-y-1 px-4">
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                   >
                     Details
                   </a>
@@ -153,7 +153,7 @@ function MobileDrawerContent() {
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                   >
                     Security
                   </a>
@@ -163,7 +163,7 @@ function MobileDrawerContent() {
                   <form action="#">
                     <button
                       type="submit"
-                      class="w-full rounded-lg px-4 py-2 text-sm font-medium text-gray-500 [text-align:_inherit] hover:bg-gray-100 hover:text-gray-700"
+                      className="w-full rounded-lg px-4 py-2 text-sm font-medium text-gray-500 [text-align:_inherit] hover:bg-gray-100 hover:text-gray-700"
                     >
                       Logout
                     </button>
