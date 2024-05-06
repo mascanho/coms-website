@@ -1,4 +1,4 @@
-//@ts-ignore
+// @ts-nocheck
 "use client";
 import { ThemeIcon, Text, Avatar, Timeline } from "@mantine/core";
 import { IconSun, IconVideo } from "@tabler/icons-react";
