@@ -2,7 +2,7 @@ import React from "react";
 
 function Customers() {
   return (
-    <div className=" bg-brand-primary">
+    <div className=" bg-brand-primary py-5">
       <div className="relative flex flex-col justify-center overflow-hidden py-6 sm:py-4 max-w-5xl mx-auto logos-slide">
         <div className="absolute w-5 h-full bg-gradient-to-r from-brand-primary to-transparent z-10" />
         <div className="absolute w-5 h-full bg-gradient-to-l from-brand-primary to-transparent z-10 right-0 " />
