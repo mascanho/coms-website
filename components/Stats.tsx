@@ -35,8 +35,8 @@ function Stats() {
   }, [count, years, countries, customers]);
 
   return (
-    <section className="bg-brand-primary py-14 sm:py-0 sm:h-52 w-full ">
-      <div className="grid  sm:grid-cols-4 w-11/12 sm:place-items-center max-w-5xl h-full mx-auto gap-y-10">
+    <section className="bg-brand-primary py-14 sm:py-14 sm:h-fit w-full ">
+      <div className="grid  sm:grid-cols-3 lg:grid-cols-4 w-10/12 sm:w-11/12 sm:place-items-center max-w-5xl h-full mx-auto gap-y-10">
         <div className="flex items-center space-x-2">
           <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
             <IoPersonSharp className="text-white text-2xl" />

@@ -2,12 +2,13 @@ import React from "react";
 import HeroCarrousel from "../HeroCarrouse";
 import { FcEngineering } from "react-icons/fc";
 import AvatarGroup from "../AvatarGroup";
+import { Link } from "lucide-react";
 
 function Hero() {
   return (
     <>
       <section className="block h-full items-center justify-center rounded-bl-[100px] bg-blue-100 pb-20 sm:flex sm:rounded-bl-[300px] sm:py-12 sm:pb-32">
-        <div className="mx-auto flex w-11/12 max-w-5xl flex-col-reverse justify-between space-y-12 sm:flex-row">
+        <div className="mx-auto flex max-w-5xl flex-col-reverse justify-between space-y-12 sm:flex-row w-10/12 sm:w-11/12">
           <div className="flex w-full flex-col  justify-center space-y-8  pt-5">
             <h1 className="text-4xl font-bold">
               Crossing Solutions Creating Connections
@@ -20,17 +21,22 @@ function Hero() {
             </h2>
             <div className="flex items-center justify-between rounded-lg bg-white px-4 py-3  shadow-lg shadow-black/25">
               <div className="flex flex-col">
-                <span className="text-gray-500">Trusted by the best</span>
+                <span className="text-gray-500 mb-1 text-sm">
+                  Trusted by the best
+                </span>
                 <span className="font-bold">
                   Our customers know who to trust
                 </span>
               </div>
-              <button
-                className="h-8 rounded-full bg-brand-primary  px-6 text-sm  text-white"
-                type="button"
-              >
-                view customers
-              </button>
+
+              <a href="#customers">
+                <button
+                  className="h-8 rounded-lg bg-brand-primary flex items-center text-nowrap px-3  sm:px-6 text-xs lg:text-sm  text-white"
+                  type="button"
+                >
+                  View customers
+                </button>
+              </a>
             </div>
             <div>{/* <AvatarGroup /> */}</div>
           </div>
@@ -43,7 +49,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      <section className="mx-auto -mt-10 mb-20 flex h-full w-11/12 max-w-5xl justify-end overflow-hidden rounded-xl sm:-mt-12">
+      <section className="mx-auto -mt-10 mb-20 flex h-full w-10/12 sm:w-11/12 max-w-5xl justify-end overflow-hidden rounded-xl sm:-mt-12">
         <div className="flex w-72 items-center justify-center">
           <span className="-mt-4 text-6xl font-bold text-gray-400 underline">
             <a href="#solutions">

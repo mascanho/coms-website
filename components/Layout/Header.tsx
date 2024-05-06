@@ -3,16 +3,25 @@ import Link from "next/link";
 import { useDisclosure } from "@mantine/hooks";
 import { Drawer, Button } from "@mantine/core";
 import HeaderMenu from "./HeaderMenu";
+import { RxHamburgerMenu } from "react-icons/rx";
+import MobileDrawerContent from "../MobileDrawerContent";
 
 export default function Header() {
   const [opened, { open, close }] = useDisclosure(false);
   return (
     <>
-      <Drawer opened={opened} onClose={close} withCloseButton={true} size="xs">
-        Drawer without header, press escape or click on overlay to close
+      <Drawer
+        opened={opened}
+        onClose={close}
+        withCloseButton={true}
+        size="xs"
+        overlayProps={{ backgroundOpacity: 0.5, blur: 4 }}
+        removeScrollProps={{ allowPinchZoom: true }}
+      >
+        <MobileDrawerContent />
       </Drawer>
 
-      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6">
+      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6 fixed w-full z-10">
         <section className="mx-auto flex w-full max-w-5xl justify-between">
           <div className="w-full">
             <Link
@@ -26,7 +35,7 @@ export default function Header() {
               className="flex items-center gap-2 font-semibold md:hidden"
               href="#"
             >
-              <ActivityIcon className="h-4 w-4" />
+              <RxHamburgerMenu onClick={open} className="h-4 w-4" />
               <span
                 className="text-black hover:text-brand-primary"
                 onClick={open}

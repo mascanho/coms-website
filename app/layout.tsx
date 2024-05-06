@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${inter.className} `}>
         <MantineProvider>
           <Header />
-          <section>{children}</section>
+          <section className="pt-14">{children}</section>
         </MantineProvider>
       </body>
     </html>
