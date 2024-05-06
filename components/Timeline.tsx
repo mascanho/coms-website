@@ -5,13 +5,13 @@ import { IconSun, IconVideo } from "@tabler/icons-react";
 function TimelineIMS() {
   return (
     <Timeline bulletSize={34}>
-      <Timeline.Item title="Default bullet">
+      <Timeline.Item title="Integrated Management System">
         <Text c="dimmed" size="sm">
-          Default bullet without anything
+          Highest compliance of standards
         </Text>
       </Timeline.Item>
       <Timeline.Item
-        title="Avatar"
+        title="2008"
         bullet={
           <Avatar
             size={22}
@@ -21,7 +21,7 @@ function TimelineIMS() {
         }
       >
         <Text c="dimmed" size="sm">
-          Timeline bullet as avatar image
+          Quality ISO 9001
         </Text>
       </Timeline.Item>
       <Timeline.Item title="Icon" bullet={<IconSun size="0.rem" />}>

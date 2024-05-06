@@ -4,7 +4,7 @@ function Reviews() {
   return (
     <section className="bg-white mt-20">
       <div className="mx-auto max-w-5xl px-4 sm:px-0 py-1 lg:py-16">
-        <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+        <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
           Read trusted reviews from our customers
         </h2>
 
