@@ -1,4 +1,4 @@
-// @ts-ignore
+//@ts-ignore
 import TimelineIMS from "./Timeline";
 
 function About() {
