@@ -35,61 +35,63 @@ function Stats() {
   }, [count, years, countries, customers]);
 
   return (
-    <section className="bg-brand-primary py-14 sm:py-14 sm:h-fit w-full ">
-      <div className="grid  sm:grid-cols-3 lg:grid-cols-4 w-10/12 sm:w-11/12 sm:place-items-center max-w-5xl h-full mx-auto gap-y-10">
-        <div className="flex items-center space-x-2">
-          <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
-            <IoPersonSharp className="text-white text-2xl" />
+    <div className="bg-gray-200">
+      <section className="bg-brand-primary pb-14 pt-64 sm:pb-20 sm:pt-64 sm:h-fit mx-auto rounded-b-[130px] w-full -mt-48 sm:-mt-48 -z-20 ">
+        <div className="grid  sm:grid-cols-3 lg:grid-cols-4 w-10/12 sm:w-11/12 sm:place-items-center max-w-5xl h-full mx-auto gap-y-10">
+          <div className="flex items-center space-x-2">
+            <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
+              <IoPersonSharp className="text-white text-2xl" />
+            </div>
+            <div>
+              <h2 className="text-white text-5xl font-bold">{count}%</h2>
+              <p className="text-sm text-black/50 ml-1 font-semibold">
+                Committed to you
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-white text-5xl font-bold">{count}%</h2>
-            <p className="text-sm text-black/50 ml-1 font-semibold">
-              Committed to you
-            </p>
+          <div className="flex items-center space-x-2">
+            <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
+              <SiSololearn className="text-white text-2xl" />
+            </div>
+            <div>
+              <h2 className="text-white text-5xl font-bold">{years}+</h2>
+              <p className="text-sm  text-black/50 ml-1 font-semibold">
+                Years of experience
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="flex items-center space-x-2">
-          <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
-            <SiSololearn className="text-white text-2xl" />
+          <div className="flex items-center space-x-2">
+            <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
+              <BiWorld className="text-white text-2xl" />
+            </div>
+            <div>
+              <h2 className="text-white text-5xl font-bold">
+                {countries}
+                <span className="text-3xl"> offices</span>
+              </h2>
+              <p className="text-sm text-black/50 ml-1 font-semibold">
+                Around the world
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-white text-5xl font-bold">{years}+</h2>
-            <p className="text-sm  text-black/50 ml-1 font-semibold">
-              Years of experience
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-2">
-          <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
-            <BiWorld className="text-white text-2xl" />
-          </div>
-          <div>
-            <h2 className="text-white text-5xl font-bold">
-              {countries}
-              <span className="text-3xl"> offices</span>
-            </h2>
-            <p className="text-sm text-black/50 ml-1 font-semibold">
-              Around the world
-            </p>
-          </div>
-        </div>
 
-        <div className="flex items-center space-x-2">
-          <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
-            <ImHappy className="text-white text-2xl" />
-          </div>
-          <div>
-            <h2 className="text-white text-5xl font-bold">
-              {customers}
-              <span className="text-4xl">+</span>
-            </h2>
-            <p className="text-sm text-black/50 ml-1 font-semibold">
-              Satisfied customers
-            </p>
+          <div className="flex items-center space-x-2">
+            <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">
+              <ImHappy className="text-white text-2xl" />
+            </div>
+            <div>
+              <h2 className="text-white text-5xl font-bold">
+                {customers}
+                <span className="text-4xl">+</span>
+              </h2>
+              <p className="text-sm text-black/50 ml-1 font-semibold">
+                Satisfied customers
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 
