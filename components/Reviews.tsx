@@ -2,10 +2,10 @@ import React from "react";
 
 function Reviews() {
   return (
-    <section className="bg-white mt-20">
+    <section className="bg-white mt-20 shadow-inner pt-10">
       <div className="mx-auto max-w-5xl px-4 sm:px-0 py-1 lg:py-16">
         <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-          Read trusted reviews from our customers
+          Customer reviews
         </h2>
 
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">

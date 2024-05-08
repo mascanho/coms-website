@@ -3,8 +3,8 @@ import TimelineIMS from "./Timeline";
 
 function About() {
   return (
-    <section className="max-w-5xl w-11/12 mx-auto  m:mt-0 mt-16 ">
-      <div className="mx-auto px-4 sm:px-0 py-2 my-20 sm:py-1 ">
+    <section className="max-w-5xl w-11/12 mx-auto  sm:mt-0 mt-1">
+      <div className="mx-auto px-4 sm:px-0 py-2 my-10 sm:py-1 ">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="relative mt-5 w-full sm:mt-0  h-full overflow-hidden order-last rounded-lg sm:h-80 lg:order-last lg:h-full flex items-center w-11/12 ml-5 sm:justify-center">
             <TimelineIMS />
