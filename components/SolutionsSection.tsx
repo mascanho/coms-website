@@ -23,7 +23,7 @@ function SolutionsSection() {
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
           >
             <MdOutlineLocationSearching className="size-10 text-brand-primary" />
 
@@ -39,7 +39,7 @@ function SolutionsSection() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
             id="survey"
           >
             <MdConstruction className="size-10 text-brand-primary" />
@@ -55,7 +55,8 @@ function SolutionsSection() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
+            id="planning"
           >
             <GrInstall className="size-10 text-brand-primary" />
             <h2 className="mt-4 text-xl font-bold text-black">INSTALLATIONS</h2>
@@ -69,7 +70,8 @@ function SolutionsSection() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
+            id="licensing"
           >
             <GrLicense className="size-10 text-brand-primary" />
 
@@ -86,6 +88,7 @@ function SolutionsSection() {
 
           <a
             id="planning"
+            href="#contact"
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
           >
             <GrPlan className="size-10 text-brand-primary" />
@@ -101,7 +104,8 @@ function SolutionsSection() {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
+            id="maintenance"
           >
             <BsTools className="size-10 text-brand-primary" />
             <h2 className="mt-4 text-xl font-bold text-black">MAINTENANCE</h2>
@@ -115,7 +119,8 @@ function SolutionsSection() {
           </a>
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-orange-500/10 hover:shadow-orange-500/10"
-            href="#"
+            href="#contact"
+            id="training"
           >
             <MdModelTraining className="size-10 text-brand-primary" />
 
@@ -132,7 +137,7 @@ function SolutionsSection() {
 
         <div className="mt-12 text-center">
           <a
-            href="#"
+            href="#contact"
             className="inline-block rounded bg-brand-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-blend-darken focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Get Started Today

@@ -16,7 +16,7 @@ function HeaderMenu({ title }: Readonly<{ title: string }>) {
         <Menu.Item component="a" href="#survey">
           Survey
         </Menu.Item>
-        <Menu.Item component="a" href="#messages">
+        <Menu.Item component="a" href="#planning">
           Planning
         </Menu.Item>
         <Menu.Item component="a" href="#construction">
@@ -32,7 +32,7 @@ function HeaderMenu({ title }: Readonly<{ title: string }>) {
         <Menu.Item component="a" href="#training">
           Training
         </Menu.Item>
-        <Menu.Item component="a" href="#licensing" color="red">
+        <Menu.Item component="a" href="#licensing">
           Licensing & Management
         </Menu.Item>
       </Menu.Dropdown>
