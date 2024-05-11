@@ -55,7 +55,7 @@ export default function Header() {
             </Link>
             <Link
               className="text-black hover:text-brand-primary dark:text-gray-400 dark:hover:text-gray-50"
-              href="#"
+              href="#values"
             >
               About us
             </Link>
