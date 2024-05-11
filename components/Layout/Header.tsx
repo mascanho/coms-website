@@ -59,12 +59,12 @@ export default function Header() {
             >
               About us
             </Link>
-            <Link
+            <a
               className="text-white bg-brand-primary px-5 py-1 rounded-lg  dark:text-gray-400 dark:hover:text-gray-50"
-              href="#"
+              href="mailto:5VrjX@example.com"
             >
               Contact
-            </Link>
+            </a>
           </nav>
         </section>
       </header>
