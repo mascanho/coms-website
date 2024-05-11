@@ -21,26 +21,29 @@ export default function Header() {
         <MobileDrawerContent />
       </Drawer>
 
-      <header className="flex h-16 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6 fixed w-full z-20">
+      <header className="flex h-14 items-center border-b bg-white px-4 dark:bg-gray-950 md:px-6 fixed w-full z-20">
         <section className="mx-auto flex w-full max-w-5xl justify-between">
-          <div className="w-full">
+          <div className="w-full flex items-center">
             <Link
               className="hidden items-center gap-2 font-semibold md:flex"
-              href="#"
+              href="/"
             >
               <ActivityIcon className="h-4 w-4 text-brand-primary " />
-              <span className="text-brand-primary">Crossed Lines</span>
+              <span className="text-brand-primary">Agile Optic</span>
             </Link>
             <Link
               className="flex items-center gap-2 font-semibold md:hidden"
               href="#"
             >
-              <RxHamburgerMenu onClick={open} className="h-4 w-4" />
+              <RxHamburgerMenu
+                onClick={open}
+                className="h-4 w-4 text-brand-primary"
+              />
               <span
-                className="text-black hover:text-brand-primary"
+                className="text-brand-primary hover:text-black"
                 onClick={open}
               >
-                Acme Inc
+                Agile Optic
               </span>
             </Link>
           </div>

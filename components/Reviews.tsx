@@ -2,8 +2,8 @@ import React from "react";
 
 function Reviews() {
   return (
-    <section className="bg-brand-primary mt-40 shadow-inner pt-1">
-      <div className="mx-auto max-w-5xl px-4 sm:px-0 py-1 lg:py-16">
+    <section className="bg-brand-primary mt-40 shadow-inner pt-1 py-20">
+      <div className="mx-auto max-w-5xl px-4 sm:px-0 py-10 lg:py-16">
         <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
           Our customers say
         </h2>

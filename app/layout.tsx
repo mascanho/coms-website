@@ -19,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} `}>
+    <html lang="en" className="bg-white">
+      <body className={`${inter.className}`}>
         <MantineProvider>
           <Header />
           <section className="pt-14">{children}</section>
