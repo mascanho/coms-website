@@ -20,7 +20,7 @@ export default function Home() {
       <section className="sm:pb-20 pb-10 ">
         <About />
       </section>
-      <section className="bg-gray-200 sm:rounded-tl-[200px] sm:rounded-br-[200px] rounded-tl-[100px] py-10 sm:pt-0 sm:-mt-20 mb-10">
+      <section className="bg-gray-200 sm:rounded-tl-[200px] sm:rounded-br-[200px] rounded-tl-[100px] rounded-br-[100px] py-10 pb-20 sm:pt-0 sm:-mt-20 mb-10">
         <Values />
       </section>
       <Locations />

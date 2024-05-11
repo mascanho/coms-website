@@ -36,7 +36,7 @@ function Stats() {
 
   return (
     <div className="bg-gray-200">
-      <section className="bg-brand-primary pb-14 pt-64 sm:pb-20 sm:pt-64 sm:h-fit mx-auto rounded-b-[130px] w-full -mt-48 sm:-mt-48 -z-20 ">
+      <section className="bg-brand-primary pb-20 pt-64 sm:pb-20 sm:pt-64 sm:h-fit mx-auto rounded-b-[100px] sm:rounded-b-[130px] w-full -mt-48 sm:-mt-48 -z-20 ">
         <div className="grid  sm:grid-cols-3 lg:grid-cols-4 w-10/12 sm:w-11/12 sm:place-items-center max-w-5xl h-full mx-auto gap-y-10">
           <div className="flex items-center space-x-2">
             <div className="border-black/50 border-2 rounded-full w-16 h-16 flex items-center justify-center">

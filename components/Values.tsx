@@ -6,7 +6,7 @@ import { FanIcon } from "lucide-react";
 function Values() {
   return (
     <section
-      className="max-w-5xl w-11/12 mx-auto  sm:mt-0 sm:pt-20 mt-1"
+      className="max-w-5xl w-11/12 mx-auto  sm:mt-0 sm:pt-20 mt-5"
       id="values"
     >
       <div className="mx-auto px-4 sm:px-0 py-2  sm:py-1 ">
@@ -44,7 +44,7 @@ function Values() {
           </div>
         </div>
       </div>
-      <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-transparent mt-28">
+      <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-transparent sm:mt-28 mt-5">
         <div className="w-full">
           <div className="space-y-6 text-center w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6  w-full">

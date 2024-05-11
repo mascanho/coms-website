@@ -2,7 +2,7 @@ import React from "react";
 
 function Description() {
   return (
-    <div className="bg-white pb-2  z-10 relative rounded-b-[200px]">
+    <div className="bg-white pb-2  z-10 relative sm:rounded-b-[200px] rounded-b-[100px]">
       <section className="max-w-5xl mx-auto sm:mb-28 mb-10 w-11/12 -mt-16 sm:mt-0">
         <div className="mx-auto px-4 sm:px-0 py-8 sm:py-1 ">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
