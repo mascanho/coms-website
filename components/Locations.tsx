@@ -4,8 +4,8 @@ import { FaEnvelope } from "react-icons/fa";
 
 export const Locations = (props: {}) => {
   return (
-    <section className="w-full py-12 sm:pt-20 sm:pb-32 bg-white dark:bg-[#1F2937]">
-      <div className="container grid items-center justify-center gap-8 px-4 md:px-6">
+    <section className="w-full  mx-auto py-12 sm:pt-20 sm:pb-32 bg-white dark:bg-[#1F2937]">
+      <div className="container grid items-center justify-center gap-6 ">
         <div className="space-y-3 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Locations
@@ -14,7 +14,7 @@ export const Locations = (props: {}) => {
             Visit us at one of our convenient locations across the country.
           </p>
         </div>
-        <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-8">
+        <div className="grid w-full max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-8">
           <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-[#374151]">
             <h3 className="text-lg font-semibold text-[#F97316]">
               Headquarters

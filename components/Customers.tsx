@@ -7,7 +7,7 @@ function Customers() {
       <h3 className=" mb-10 text-black/30 max-w-5xl w-full text-xl text-center font-bold mx-auto">
         Trusted by the best
       </h3>
-      <div className="h-[90px] items-center flex shadow-inner pt-32 ">
+      <div className="h-[90px] items-center flex pt-32 ">
         <div className="relative flex flex-col justify-center overflow-hidden py-6 sm:pt-2 sm:pb-10  max-w-5xl mx-auto logos-slide">
           <div className="absolute w-5 h-full bg-gradient-to-r from-white to-transparent z-10" />
           <div className="absolute w-5 h-full bg-gradient-to-l from-white to-transparent z-10 right-0 " />
