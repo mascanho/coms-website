@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Customers() {
   return (
-    <section>
+    <section id="customers">
       <h3 className=" mb-10 text-black/30 max-w-5xl w-full text-xl text-center font-bold mx-auto">
         Trusted by the best
       </h3>
